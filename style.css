@@ -10,6 +10,16 @@ body {
 .section-padding {
     padding: 120px 0;
 }
+@media (max-width: 991px) {
+    .section-padding {
+        padding: 90px 0;
+    }
+}
+@media (max-width: 575px) {
+    .section-padding {
+        padding: 35px 0;
+    }
+}
 .cover {
     object-fit: cover;
 }

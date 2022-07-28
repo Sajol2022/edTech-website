@@ -1,15 +1,4 @@
 /*==========================================================================
 Common Css
 ==========================================================================*/
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
-body {
-    font-family: 'DM Sans', sans-serif;
-    margin: 0;
-    font-size: 16px;
-    line-height: 26px;
-    color: #777777;
-    font-weight: 400;
-}
-.cover {
-    object-fit: cover;
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');body {font-family: 'DM Sans', sans-serif;margin: 0;font-size: 16px;line-height: 26px;font-weight: 400;color: #777777;}.section-padding {padding: 120px 0;}.cover {object-fit: cover;}.z-index {z-index: 1;}

@@ -10,19 +10,47 @@ body {
 .section-padding {
     padding: 120px 0;
 }
+.cover {
+    object-fit: cover;
+}
+.z-index {
+    z-index: 1;
+}
+.box-shadow {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.09);
+}
+.carousel-item {        
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 155px 30px 170px 30px;
+    text-align: center;
+}
+.banner-content {
+    max-width: 670px;
+    margin: 0 auto;
+}
+.banner-content h1 {
+    font-size: 55px;
+    line-height: 65px;
+}
 @media (max-width: 991px) {
     .section-padding {
         padding: 90px 0;
+    }
+    .carousel-item {
+        padding: 115px 30px 130px 30px;
     }
 }
 @media (max-width: 575px) {
     .section-padding {
         padding: 35px 0;
     }
-}
-.cover {
-    object-fit: cover;
-}
-.z-index {
-    z-index: 1;
+    .banner-content h1 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .carousel-item {
+        padding: 60px 30px 75px 30px;
+    }
 }

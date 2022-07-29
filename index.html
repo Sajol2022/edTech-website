@@ -16,8 +16,8 @@
 </head>
 <body>
 <!-- Header Area Start -->
-<div class="menu-bar position-sticky top-0 z-index">
-  <nav class="navbar navbar-expand-lg bg-light">
+<div class="menu-bar position-sticky top-0 z-index box-shadow">
+  <nav class="navbar navbar-expand-lg bg-white py-4">
     <div class="container">
       <div class="logo">
         <a href="index.html"><img src="images/logo.png" alt=""></a>
@@ -40,6 +40,49 @@
   </nav>
 </div>
 <!-- Header Area End -->
+<!-- Banner Area Start -->
+<div class="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('images/banner/banner-1.jpg');">
+              <div class="banner-content">
+                <h1 class="text-white mb-4 fw-bold">Get Started Digital Learning</h1>
+                <p class="text-white mb-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>              
+                <a class="btn btn-primary px-5 py-3 fw-semibold" href="#register">Get Started</a>  
+              </div>   
+            </div>
+            <div class="carousel-item" style="background-image: url('images/banner/banner-2.jpg');">
+              <div class="banner-content">
+                <h1 class="text-white mb-4 fw-bold">You can enjoy studying grow</h1>
+                <p class="text-white mb-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>              
+                <a class="btn btn-primary px-5 py-3 fw-semibold" href="#register">Get Started</a>  
+              </div>     
+            </div>
+            <div class="carousel-item" style="background-image: url('images/banner/banner-3.jpg');">
+              <div class="banner-content">
+                <h1 class="text-white mb-4 fw-bold">Leading Ballet Experts of Today</h1>
+                <p class="text-white mb-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>              
+                <a class="btn btn-primary px-5 py-3 fw-semibold" href="#register">Get Started</a>  
+              </div>      
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Banner Area End -->
 <!-- Courses Area Start -->
 <div id="courses" class="courses section-padding">
   <div class="container">
@@ -132,11 +175,11 @@
 <!-- About Area Start -->
 <div id="about" class="about section-padding pt-0">
   <div class="container">
-    <div class="row align-items-center bg-light">
+    <div class="row align-items-center bg-light m-0">
       <div class="col-lg-6 col-md-6">
         <img class="img-fluid" src="images/student/working.png" alt="">
       </div>
-      <div class="col-lg-6 col-md-6 py-4 px-5">
+      <div class="col-lg-6 col-md-6 py-4 px-2">
         <h1 class="fw-bold text-dark mb-4">Explore The learning Institute</h1>
         <p class="mb-4 pb-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
         <div class="row">
@@ -276,16 +319,13 @@
               <h2 class="accordion-header" id="headingOne">
                   <button class="accordion-button rounded" type="button" data-bs-toggle="collapse"
                       data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      What is the difference between CSS Flexbox and Grid layout?
+                      What does education mean?
                   </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                      The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox
-                      was designed for layout in one dimension - either a row or a column. Grid was
-                      designed for two-dimensional layout - rows, and columns at the same time.
-                  </div>
+                    Education refers to the discipline that is concerned with methods of teaching and learning in schools or school-like environments, as opposed to various nonformal and informal means of socialization.                  </div>
               </div>
           </div>
           <div class="accordion-item border mb-3 rounded">
@@ -293,16 +333,13 @@
                   <button class="accordion-button collapsed rounded" type="button"
                       data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                       aria-controls="collapseTwo">
-                      What is the difference between Tailwind CSS and Bootstrap?
+                      What was education like in ancient Athens?
                   </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                      The significant difference between Tailwind CSS and Bootstrap is that Tailwind
-                      offers predesigned widgets to build a site from scratch with fast UI development,
-                      while Bootstrap comes with a set of pre-styled responsive, mobile-first components
-                      that possess a definite UI kit.
+                    Beginning approximately at the end of the 7th or during the 6th century, Athens became the first city-state in ancient Greece to renounce education that was oriented toward the future duties of soldiers. The evolution of Athenian education reflected that of the city itself, which was moving toward increasing democratization.
                   </div>
               </div>
           </div>
@@ -311,16 +348,13 @@
                   <button class="accordion-button collapsed rounded" type="button"
                       data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
                       aria-controls="collapseThree">
-                      What is CSS Box Model?
+                      What are alternative forms of education?
                   </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                      In web development, the CSS box model refers to how HTML elements are modeled in
-                      browser engines and how the dimensions of those HTML elements are derived from CSS
-                      properties. It is a fundamental concept for the composition of HTML webpages. It
-                      consists of: margins, borders, padding, and the actual content.
+                    Alternative forms of education have developed since the late 20th century, such as distance learning, homeschooling, and many parallel or supplementary systems of education often designated as “nonformal” and “popular.” Religious institutions also instruct the young and old alike in sacred knowledge as well as in the values and skills required for participation in local, national, and transnational societies.
                   </div>
               </div>
           </div>
@@ -329,17 +363,13 @@
                   <button class="accordion-button collapsed rounded" type="button"
                       data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
                       aria-controls="collapseFour">
-                      What is a Semantic Tag?
+                      How does social class affect education attainment?
                   </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                      Semantic HTML elements are those that clearly describe their meaning in a human- and
-                      machine-readable way. Elements such as &#60;header> , &#60;footer> and &#60;article>
-                      are all
-                      considered semantic because they accurately describe the purpose of the
-                      element and the type of content that is inside them.
+                    Research has found that education is the strongest determinant of individuals’ occupational status and chances of success in adult life. However, the correlation between family socioeconomic status and school success or failure appears to have increased worldwide. Long-term trends suggest that as societies industrialize and modernize, social class becomes increasingly important in determining educational outcomes and occupational attainment. 
                   </div>
               </div>
           </div>
